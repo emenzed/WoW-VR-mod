@@ -1,0 +1,26 @@
+[enable]
+wow.exe+13EE03:
+db 90 90 90
+wow.exe+13EE09:
+db 90 90 90
+wow.exe+13EE0F:
+db 90 90 90
+wow.exe+224DE6:
+db 90 90 90 90 90 90
+wow.exe+138222:
+db 90 90 90 90 90 90
+wow.exe+13828D:
+db 90 90 90 90 90 90
+[disable]
+wow.exe+13EE03:
+mov [esi+08],edx
+wow.exe+13EE09:
+mov [esi+0C],ecx
+wow.exe+13EE0F:
+mov [esi+10],edx
+wow.exe+224DE6:
+fstp dword ptr [ecx+0000010C]
+wow.exe+138222:
+fst dword ptr [esi+000001B4]
+wow.exe+13828D:
+fst dword ptr [esi+000001B4]

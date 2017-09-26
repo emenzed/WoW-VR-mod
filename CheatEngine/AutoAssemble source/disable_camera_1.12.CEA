@@ -1,0 +1,26 @@
+[enable]
+wow.exe+10EDE5:
+db 90 90
+wow.exe+10EDEA:
+db 90 90 90
+wow.exe+10EDF0:
+db 90 90 90
+wow.exe+11147A:
+db 90 90 90 90 90 90
+wow.exe+111422:
+db 90 90 90 90 90 90
+wow.exe+2151E6:
+db 90 90 90 90 90 90
+[disable]
+wow.exe+10EDE5:
+mov [ecx],edx
+wow.exe+10EDEA:
+mov [ecx+04],edx
+wow.exe+10EDF0:
+mov [ecx+08],eax
+wow.exe+111422:
+mov [esi+000000EC],eax
+wow.exe+11147A:
+mov [esi+000000EC],edx
+wow.exe+2151E6:
+mov [ecx+00000100],eax

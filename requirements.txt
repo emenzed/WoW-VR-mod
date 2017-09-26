@@ -1,0 +1,6 @@
+psutil
+openvr
+memorpy
+pynput
+numpy
+pypiwin32
